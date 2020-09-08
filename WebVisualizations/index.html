@@ -10,40 +10,50 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <title>Visualization Dashboard</title>
+        
+        <!-- The four links below are all for the favicon image -->
+        <!-- favicon generated at https://favicon.io/ -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+
+
+
+
+
+
+
+
 
     </head>
     <body>
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
-    <!-- Navigation Menu -->
-    
-        <header>
-            <div class="container">
-                <h1>Welcome to the amazing visualization site</h1>
-                <nav class="nav">
-                  <ol>
-                    <li>
-                      <a href="#">Plots</a>
-                    </li>
-                    <li>
-                      <a href="#">Comparison</a>
-                    </li>
-                    <li>
-                      <a href="#">Data</a>
-                    </li>
-                  </ol>
-                </nav>
-        </header>
-
+        <!-- Navigation Menu -->
+        <div class="container-fluid">
+            <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Plots</a>
+                </li>
+                <li>
+                    <a href="#">Comparison</a>
+                </li>
+                <li>
+                    <a href="#">Data</a>
+                </li>
+            </ul>
+            </nav>
+        
         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
             Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
             visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-    
-    
+ 
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
 
-        </body>
+</body>  
 </html>
