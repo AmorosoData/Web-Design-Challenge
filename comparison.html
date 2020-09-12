@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>Cloudiness</title>
+    <title>Comparison</title>
     <!-- Responsive meta tag-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CDN -->
@@ -53,16 +53,39 @@
             </div>
         </div>
     </nav>
-     <!--cloudiness content adjustments-->
-
-
-
-     
-    <h3 class="title">Cloudiness</h3>
-                    <hr>
-                    <img src="Resources/Assets/Images/Lat_vs_Cloudiness.png" alt="Cloudiness Graph">
-                    <p>There is no strong relationship between latitude and cloudiness.<br>
-                        There are a lot of location that have 0%, 75%, and 90% cloudiness regardless of latitude. 
-                    </p>
+     <!--Add plots in a container-->
+     <div class="container content bg-light">
+        <h3>Comparison: Latitude vs X</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Max Teperature</h3>
+                <a href="temp.html"><img width="100%" src="Resources/assets/images/Lat_vs_Temp.png"></a>   
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Humidity</h3>
+                <a href="humidity.html"><img width="100%" src="Resources/assets/images/Lat_vs_Humidity.png"></a>  
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Cloudiness </h3>
+                <a href="clouds.html"><img width="100%" src="Resources/assets/images/Lat_vs_Cloudiness.png"></a>   
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Wind Speed</h3>
+                <a href="wind.html"><img width="100%" src="Resources/assets/images/Lat_vs_Wind_Speed.png"></a>  
+        <p>Click individual plot for analysis</p>
+            </div>
+        </div>   
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">© Copyright Amoroso 2020
+        </div>      
+    </footer>
+    
 </body>
-</html>
+</html>   
